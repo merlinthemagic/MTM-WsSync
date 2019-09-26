@@ -1,0 +1,30 @@
+{
+	"name" : "merlinthemagic/mtm-ws-sync",
+	"type" : "library",
+	"description" : "Syncronization tools for PHP 7",
+	"version" : "0.0.1",
+	"keywords" : [
+		"subscription",
+		"object sync",
+		"concurrency"
+	],
+	"homepage" : "https://github.com/merlinthemagic/MTM-WsSync",
+	"license" : "LGPL-3.0",
+	"authors" : [{
+			"name" : "Martin Peter Madsen",
+			"email" : "dev@martinpetermadsen.com",
+			"role" : "Developer"
+		}
+	],
+	"require" : {
+		"php" : ">=7.3.0",
+		"merlinthemagic/mtm-ws-router" : ">=0.0.1",
+		"merlinthemagic/mtm-ws-edge" : ">=0.0.1"
+	},
+	"autoload" : {
+		"files" : [
+			"./Enable.php"
+		]
+	},
+	"minimum-stability" : "dev"
+}
